@@ -1,0 +1,125 @@
+cep;logradouro;bairro;cidade;uf
+69900000;Avenida Getúlio Vargas;Centro;Rio Branco;AC
+69900010;Rua Epaminondas Jácome;Centro;Rio Branco;AC
+69900020;Rua Floriano Peixoto;Centro;Rio Branco;AC
+69900030;Rua Benjamin Constant;Centro;Rio Branco;AC
+69900040;Rua José de Melo;Centro;Rio Branco;AC
+69900050;Rua 24 de Janeiro;Centro;Rio Branco;AC
+69900060;Rua Rui Barbosa;Centro;Rio Branco;AC
+69900070;Rua Dom Pedro II;Centro;Rio Branco;AC
+69900080;Avenida Brasil;Centro;Rio Branco;AC
+69900090;Rua Marechal Deodoro;Centro;Rio Branco;AC
+69900100;Rua Senador Guiomard;Centro;Rio Branco;AC
+69900110;Rua Quinze de Novembro;Centro;Rio Branco;AC
+69900120;Rua Rio de Janeiro;Bosque;Rio Branco;AC
+69900130;Rua Minas Gerais;Bosque;Rio Branco;AC
+69900140;Rua Bahia;Bosque;Rio Branco;AC
+69900150;Rua São Paulo;Bosque;Rio Branco;AC
+69900160;Avenida Ceará;Bosque;Rio Branco;AC
+69900170;Rua Amazonas;Bosque;Rio Branco;AC
+69900180;Rua Pernambuco;Bosque;Rio Branco;AC
+69900190;Rua Paraíba;Bosque;Rio Branco;AC
+69900200;Rua Epaminondas Jácome;Centro;Rio Branco;AC
+69900210;Travessa Epaminondas Jácome;Centro;Rio Branco;AC
+69900220;Rua Marechal Rondon;Centro;Rio Branco;AC
+69900230;Rua Manoel Bandeira;Base;Rio Branco;AC
+69900240;Rua Dom Joaquim;Base;Rio Branco;AC
+69900250;Rua Hugo Carneiro;Base;Rio Branco;AC
+69900260;Rua Isaura Parente;Aeroporto Velho;Rio Branco;AC
+69900270;Rua Quintino Bocaiuva;Aeroporto Velho;Rio Branco;AC
+69900280;Rua Boulevard Augusto;Aeroporto Velho;Rio Branco;AC
+69900290;Rua Alvorada;Aeroporto Velho;Rio Branco;AC
+69900300;Rua Santa Maria;Aviário;Rio Branco;AC
+69900310;Rua Santa Inês;Aviário;Rio Branco;AC
+69900320;Rua do Aviário;Aviário;Rio Branco;AC
+69900330;Rua do Comércio;Seis de Agosto;Rio Branco;AC
+69900340;Rua Sete de Setembro;Seis de Agosto;Rio Branco;AC
+69900350;Rua 6 de Agosto;Seis de Agosto;Rio Branco;AC
+69900360;Rua Cunha Matos;Seis de Agosto;Rio Branco;AC
+69900370;Rua Eduardo Assmar;Seis de Agosto;Rio Branco;AC
+69900400;Rua Plácido de Castro;Cadeia Velha;Rio Branco;AC
+69900410;Rua Dom Bosco;Cadeia Velha;Rio Branco;AC
+69900420;Rua Almirante Barroso;Cadeia Velha;Rio Branco;AC
+69900430;Rua Padre Anchieta;Cadeia Velha;Rio Branco;AC
+69900440;Rua Coronel Alexandrino;Cadeia Velha;Rio Branco;AC
+69900500;Rua Rio de Janeiro;Bosque;Rio Branco;AC
+69900510;Rua Maranhão;Bosque;Rio Branco;AC
+69900520;Rua Sergipe;Bosque;Rio Branco;AC
+69900530;Rua Espírito Santo;Bosque;Rio Branco;AC
+69900540;Rua Amapá;Bosque;Rio Branco;AC
+69900600;Avenida Nações Unidas;Capoeira;Rio Branco;AC
+69900610;Rua da Amizade;Capoeira;Rio Branco;AC
+69900620;Rua do Pescador;Capoeira;Rio Branco;AC
+69900630;Rua Estudante;Capoeira;Rio Branco;AC
+69900640;Rua do Sol;Capoeira;Rio Branco;AC
+69900700;Rua Tupã;Conquista;Rio Branco;AC
+69900710;Rua do Bosque;Conquista;Rio Branco;AC
+69900720;Rua Beija-Flor;Conquista;Rio Branco;AC
+69900730;Rua Tucano;Conquista;Rio Branco;AC
+69900740;Rua Arara;Conquista;Rio Branco;AC
+69900800;Rua Rio Branco;Sobral;Rio Branco;AC
+69900810;Rua das Oliveiras;Sobral;Rio Branco;AC
+69900820;Rua das Mangueiras;Sobral;Rio Branco;AC
+69900830;Rua das Acácias;Sobral;Rio Branco;AC
+69900840;Rua das Palmeiras;Sobral;Rio Branco;AC
+69900900;Rua Antônio da Rocha;Vila Acre;Rio Branco;AC
+69900910;Rua Chico Mendes;Vila Acre;Rio Branco;AC
+69900920;Rua do Aço;Vila Acre;Rio Branco;AC
+69900930;Rua do Cedro;Vila Acre;Rio Branco;AC
+69900940;Rua do Ipê;Vila Acre;Rio Branco;AC
+69901000;Rua Floriano Peixoto;Seis de Agosto;Rio Branco;AC
+69901010;Rua Boa Ventura;Seis de Agosto;Rio Branco;AC
+69901020;Rua dos Pioneiros;Seis de Agosto;Rio Branco;AC
+69901030;Rua Manoel Julião;Manoel Julião;Rio Branco;AC
+69901040;Rua Ouro Verde;Manoel Julião;Rio Branco;AC
+69901100;Rua Ajarani;Distrito Industrial;Rio Branco;AC
+69901110;Rua Acrelândia;Distrito Industrial;Rio Branco;AC
+69901120;Rua Senador Siqueira;Distrito Industrial;Rio Branco;AC
+69901130;Rua do Comércio;Distrito Industrial;Rio Branco;AC
+69901140;Rua Estrada do Amapá;Distrito Industrial;Rio Branco;AC
+69901200;Rua Tucumã;Conjunto Tucumã;Rio Branco;AC
+69901210;Rua Urucum;Conjunto Tucumã;Rio Branco;AC
+69901220;Rua Castanheira;Conjunto Tucumã;Rio Branco;AC
+69901230;Rua Cedro Rosa;Conjunto Tucumã;Rio Branco;AC
+69901240;Rua Ipê Roxo;Conjunto Tucumã;Rio Branco;AC
+69901300;Rua Universitária;Universitário;Rio Branco;AC
+69901310;Rua da Biblioteca;Universitário;Rio Branco;AC
+69901320;Rua Pesquisador;Universitário;Rio Branco;AC
+69901330;Rua do Campus;Universitário;Rio Branco;AC
+69901340;Rua do Laboratório;Universitário;Rio Branco;AC
+69901400;Avenida Ceará;Bosque;Rio Branco;AC
+69901410;Rua Bahia;Bosque;Rio Branco;AC
+69901420;Rua Pernambuco;Bosque;Rio Branco;AC
+69901430;Rua Paraíba;Bosque;Rio Branco;AC
+69901440;Rua Alagoas;Bosque;Rio Branco;AC
+69908000;Rua Isaura Parente;Aeroporto Velho;Rio Branco;AC
+69931000;Avenida Quinari;Centro;Senador Guiomard;AC
+69931010;Rua Senador Guiomard;Centro;Senador Guiomard;AC
+69931020;Rua Primavera;Primavera;Senador Guiomard;AC
+69931030;Rua Triângulo;Triângulo;Senador Guiomard;AC
+69931040;Avenida Brasil;Centro;Senador Guiomard;AC
+69932000;Avenida Rui Barbosa;Centro;Bujari;AC
+69932010;Rua Projetada;Vila Nova;Bujari;AC
+69932020;Rua do Comércio;Centro;Bujari;AC
+69932030;Rua Antônio da Rocha;São Francisco;Bujari;AC
+69932040;Rua Acre;Centro;Bujari;AC
+69933000;Avenida Amazonas;Centro;Porto Acre;AC
+69933010;Rua do Porto;Centro;Porto Acre;AC
+69933020;Rua Rio Acre;Triunfo;Porto Acre;AC
+69933030;Rua Independência;Triunfo;Porto Acre;AC
+69933040;Rua Principal;Vila do Incra;Porto Acre;AC
+69934000;Avenida Plácido de Castro;Centro;Plácido de Castro;AC
+69934010;Rua Coronel Plácido;Centro;Plácido de Castro;AC
+69934020;Rua Epaminondas;Rosário;Plácido de Castro;AC
+69934030;Rua Marechal Rondon;Mutirão;Plácido de Castro;AC
+69934040;Rua Brasil;Centro;Plácido de Castro;AC
+69935000;Avenida 25 de Agosto;Centro;Xapuri;AC
+69935010;Rua Floriano Peixoto;Centro;Xapuri;AC
+69935020;Rua Joaquim Macedo;Laranjal;Xapuri;AC
+69935030;Rua Marechal Rondon;Sibéria;Xapuri;AC
+69935040;Rua Sena Madureira;Cerâmica;Xapuri;AC
+69936000;Avenida Brasil;Centro;Capixaba;AC
+69936010;Rua Acrelândia;Centro;Capixaba;AC
+69936020;Rua Plácido de Castro;Santo Agostinho;Capixaba;AC
+69936030;Rua Quinari;Primavera;Capixaba;AC
+69936040;Rua Projetada;Centro;Capixaba;AC

@@ -1,0 +1,54 @@
+### Login - obtém token JWT e armazena em variável global
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "username": "usuarioTeste1",
+  "password": "usuarioTeste1"
+}
+
+> {%
+    client.global.set("token", response.body.token);
+    client.log("Token capturado: {{token}}");
+%}
+
+### POST criar CEP (requer token)
+POST http://localhost:8080/api/ceps
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "cep": "12345678",
+  "logradouro": "Rua Exemplo",
+  "bairro": "Centro",
+  "cidade": "ExemploCity",
+  "uf": "AC"
+}
+
+### PUT atualizar CEP (requer token)
+PUT http://localhost:8080/api/ceps/125
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "cep": "12345678",
+  "logradouro": "Rua Alterada",
+  "bairro": "Bairro Alterado",
+  "cidade": "Cidade Alterada",
+  "uf": "AC"
+}
+
+### GET por CEP (requer token)
+GET http://localhost:8080/api/ceps/12345678
+Authorization: Bearer {{token}}
+Accept: application/json
+
+### GET por Logradouro (paginado, requer token)
+GET http://localhost:8080/api/ceps/logradouro?nome=Rua&size=10&page=0
+Authorization: Bearer {{token}}
+Accept: application/json
+
+### GET por Cidade (paginado, requer token)
+GET http://localhost:8080/api/ceps/cidade?nome=Rio&size=10&page=0
+Authorization: Bearer {{token}}
+Accept: application/json

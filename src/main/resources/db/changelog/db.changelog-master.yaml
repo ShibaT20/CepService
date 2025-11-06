@@ -1,0 +1,101 @@
+databaseChangeLog:
+  - changeSet:
+      id: 001-create-cep
+      author: assistant
+      changes:
+        - createTable:
+            tableName: cep
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: cep
+                  type: VARCHAR(8)
+                  constraints:
+                    nullable: false
+                    unique: true
+              - column:
+                  name: logradouro
+                  type: VARCHAR(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: bairro
+                  type: VARCHAR(255)
+              - column:
+                  name: cidade
+                  type: VARCHAR(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: uf
+                  type: VARCHAR(2)
+                  constraints:
+                    nullable: false
+        - addAutoIncrement:
+            tableName: cep
+            columnName: id
+            columnDataType: BIGINT
+            incrementBy: 1
+        - createIndex:
+            tableName: cep
+            indexName: idx_cep_cidade
+            columns:
+              - column:
+                  name: cidade
+        - createIndex:
+            tableName: cep
+            indexName: idx_cep_logradouro
+            columns:
+              - column:
+                  name: logradouro
+  - changeSet:
+      id: 002-load-cep-ac-todos
+      author: assistant
+      changes:
+        - delete:
+            tableName: cep
+        - loadData:
+            file: classpath:db/data/cep_ac_todos.csv
+            tableName: cep
+            separator: ;
+            quotchar: '"'
+            encoding: UTF-8
+  - changeSet:
+      id: 003-create-usuario
+      author: assistant
+      changes:
+        - createTable:
+            tableName: usuario
+            columns:
+              - column:
+                  name: id
+                  type: BIGINT
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: username
+                  type: VARCHAR(100)
+                  constraints:
+                    nullable: false
+                    unique: true
+              - column:
+                  name: password
+                  type: VARCHAR(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: role
+                  type: VARCHAR(50)
+                  constraints:
+                    nullable: false
+        - addAutoIncrement:
+            tableName: usuario
+            columnName: id
+            columnDataType: BIGINT
+            incrementBy: 1
