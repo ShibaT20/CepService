@@ -1,7 +1,7 @@
-package com.testeoti.cep.service;
+package com.cepservice.cep.service;
 
-import com.testeoti.cep.model.Cep;
-import com.testeoti.cep.repository.CepRepository;
+import com.cepservice.cep.model.Cep;
+import com.cepservice.cep.repository.CepRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;

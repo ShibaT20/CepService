@@ -1,7 +1,7 @@
-package com.testeoti.cep.security;
+package com.cepservice.cep.security;
 
-import com.testeoti.cep.model.Usuario;
-import com.testeoti.cep.repository.UsuarioRepository;
+import com.cepservice.cep.model.Usuario;
+import com.cepservice.cep.repository.UsuarioRepository;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;

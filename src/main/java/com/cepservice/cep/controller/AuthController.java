@@ -1,7 +1,7 @@
-package com.testeoti.cep.controller;
+package com.cepservice.cep.controller;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.testeoti.cep.security.TokenService;
+import com.cepservice.cep.security.TokenService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

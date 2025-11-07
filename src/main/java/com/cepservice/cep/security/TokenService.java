@@ -1,4 +1,4 @@
-package com.testeoti.cep.security;
+package com.cepservice.cep.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

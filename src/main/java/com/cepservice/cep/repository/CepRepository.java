@@ -1,6 +1,6 @@
-package com.testeoti.cep.repository;
+package com.cepservice.cep.repository;
 
-import com.testeoti.cep.model.Cep;
+import com.cepservice.cep.model.Cep;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

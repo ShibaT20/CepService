@@ -1,7 +1,7 @@
-package com.testeoti.cep.config;
+package com.cepservice.cep.config;
 
-import com.testeoti.cep.model.Usuario;
-import com.testeoti.cep.repository.UsuarioRepository;
+import com.cepservice.cep.model.Usuario;
+import com.cepservice.cep.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.Resource;

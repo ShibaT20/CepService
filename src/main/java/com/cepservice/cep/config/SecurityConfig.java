@@ -1,6 +1,6 @@
-package com.testeoti.cep.config;
+package com.cepservice.cep.config;
 
-import com.testeoti.cep.security.SecurityFilter;
+import com.cepservice.cep.security.SecurityFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;

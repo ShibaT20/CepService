@@ -1,6 +1,6 @@
-package com.testeoti.cep.repository;
+package com.cepservice.cep.repository;
 
-import com.testeoti.cep.model.Usuario;
+import com.cepservice.cep.model.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

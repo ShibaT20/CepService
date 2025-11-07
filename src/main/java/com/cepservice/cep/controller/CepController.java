@@ -1,7 +1,7 @@
-package com.testeoti.cep.controller;
+package com.cepservice.cep.controller;
 
-import com.testeoti.cep.model.Cep;
-import com.testeoti.cep.service.CepService;
+import com.cepservice.cep.model.Cep;
+import com.cepservice.cep.service.CepService;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

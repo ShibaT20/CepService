@@ -1,4 +1,4 @@
-package com.testeoti.cep.model;
+package com.cepservice.cep.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
